@@ -3,9 +3,10 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-    return
+  return (
     <main>
-        SIDEBAR
-        {children}
-    </main>;
+      SIDEBAR
+      {children}
+    </main>
+  );
 }
