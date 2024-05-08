@@ -60,17 +60,16 @@ const MobileNav = ({ user }: MobileNavProps) => {
                         href={item.route}
                         key={item.label}
                       >
-                        
-                          <Image
+                        <Image
                           width={20}
                           height={20}
-                            src={item.imgURL}
-                            alt={item.label}
-                            className={cn({
-                              "brightness-[3] invert-0": isActive,
-                            })}
-                          />
-                        
+                          src={item.imgURL}
+                          alt={item.label}
+                          className={cn({
+                            "brightness-[3] invert-0": isActive,
+                          })}
+                        />
+
                         <p
                           className={cn("text-16 font-semibold text-black-2", {
                             "text-white": isActive,
