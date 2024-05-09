@@ -14,13 +14,13 @@ const HeaderBox = ({
         {type === "greeting" && (
           <span className="text-bankGradient">&nbsp;{user}</span>
         )}
-          </h1>
-          <p className="header-box-subtext">{subtext}</p>
-          <TotalBalanceBox
-              accounts={[]}
-              totalBanks={1}
-              totalCurrentBalance={1250}
-          />
+      </h1>
+      <p className="header-box-subtext">{subtext}</p>
+      <TotalBalanceBox
+        accounts={[]}
+        totalBanks={1}
+        totalCurrentBalance={1250.35}
+      />
     </div>
   );
 };
