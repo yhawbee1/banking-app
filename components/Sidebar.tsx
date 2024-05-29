@@ -19,6 +19,7 @@ const Sidebar = ({ user }: SiderbarProps) => {
             className="size-[24px] max-xl:size-14"
             alt="Horizon logo"
           />
+          663df978001980e73d71
           <h1 className="sidebar-logo">Horizon</h1>
         </Link>
         {sidebarLinks.map((item) => {
